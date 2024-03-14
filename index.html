@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="stopwatch-container border-transparent h-[37vh] w-[30rem] mx-auto mt-[3rem] shadow-md"
+    >
+      <h3 class="text-center text-2xl">Stopwatch</h3>
+      <div
+        class="stopwatch-content border-transparent w-[15rem] mx-auto mt-[5rem] px-[2rem] text-2xl text-center"
+      >
+        <span class="stopwatch-second">00</span>
+        <span>s</span>
+        <span class="stopwatch-milliSecond">00</span>
+      </div>
+      <div
+        class="buttons border-transparent w-[15rem] mx-auto mt-[2rem] p-[1%] flex justify-around"
+      >
+        <button class="w-[4rem] bg-sky-600 text-white">START</button>
+        <button class="w-[4rem] bg-sky-600 text-white">RESET</button>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
