@@ -45,7 +45,7 @@ function handleStopwatchStart() {
 
   intervalId = setInterval(function () {
     milliSeconds++;
-    if (milliSeconds === 999) {
+    if (milliSeconds === 99) {
       seconds++;
       milliSeconds = 0;
     }
